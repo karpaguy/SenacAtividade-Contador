@@ -23,9 +23,11 @@ function App() {
   return (
     <div className="App">
       <Numero texto={cont}/>
-      <Botao texto={'Contador'} aoClicar={botaoClicadoAdd}/>
-      <Botao texto={'Reduzir'} aoClicar={botaoClicadoRed}/>
-      <Botao texto={'Resetar'} aoClicar={botaoClicadoReset}/>
+      <div className="buttonBar"> 
+        <Botao texto={'Contador'} aoClicar={botaoClicadoAdd}/>
+        <Botao texto={'Reduzir'} aoClicar={botaoClicadoRed}/>
+        <Botao texto={'Resetar'} aoClicar={botaoClicadoReset}/>
+      </div>
     </div>
   );
 }

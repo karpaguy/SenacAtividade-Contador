@@ -6,7 +6,7 @@ type Props={
 }
 
 function Botao(props: Props) {
-    return <button onClick={props.aoClicar}>{props.texto}</button>
+    return <button className={styles.Botao} onClick={props.aoClicar}>{props.texto}</button>
 }
 
 export default Botao;

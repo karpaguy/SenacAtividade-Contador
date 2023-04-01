@@ -1,3 +1,20 @@
-button {
-    background-color: blue;
+.Botao {
+    padding: 5px;
+    margin: 20px 10px 0px 10px;
+
+    background-color: aliceblue;
+
+    border: 1px black solid;
+    border-radius: 5%;
+
+    font-family: 'Courier New', Courier, monospace;
+
+    transition: 0.8s;
+}
+
+.Botao:hover {
+    cursor: pointer;
+    background-color: pink;
+
+    transform: rotate(10deg);
 }
